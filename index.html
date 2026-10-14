@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en" class="no-js" data-state="intro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Midnight Gift — A Little Universe, Just for You</title>
+  <meta name="description" content="A little surprise, made just for you.">
+  <meta name="theme-color" content="#050507">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex">
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2l3 11 11 3-11 3-3 11-3-11-11-3 11-3z' fill='%23F4D06F'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Shared SVG definitions: satin gradients and the ribbon bow -->
+  <svg class="svg-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <radialGradient id="g-loop" cx="34%" cy="28%" r="80%">
+        <stop offset="0" stop-color="#FFF6D8"/>
+        <stop offset=".28" stop-color="#F4D06F"/>
+        <stop offset=".62" stop-color="#C08E35"/>
+        <stop offset="1" stop-color="#4A2D3E"/>
+      </radialGradient>
+      <linearGradient id="g-loop-hole" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#3B2410"/>
+        <stop offset="1" stop-color="#7A5420"/>
+      </linearGradient>
+      <linearGradient id="g-knot" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#8A6222"/>
+        <stop offset=".35" stop-color="#F4D06F"/>
+        <stop offset=".55" stop-color="#FFF1C4"/>
+        <stop offset="1" stop-color="#7A5418"/>
+      </linearGradient>
+      <linearGradient id="g-satin-v" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#6E4D14"/>
+        <stop offset=".18" stop-color="#C99A3E"/>
+        <stop offset=".38" stop-color="#F4D06F"/>
+        <stop offset=".5" stop-color="#FFF3C9"/>
+        <stop offset=".64" stop-color="#F0C860"/>
+        <stop offset=".84" stop-color="#B7862F"/>
+        <stop offset="1" stop-color="#6E4D14"/>
+      </linearGradient>
+      <linearGradient id="g-satin-h" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#6E4D14"/>
+        <stop offset=".18" stop-color="#C99A3E"/>
+        <stop offset=".38" stop-color="#F4D06F"/>
+        <stop offset=".5" stop-color="#FFF3C9"/>
+        <stop offset=".64" stop-color="#F0C860"/>
+        <stop offset=".84" stop-color="#B7862F"/>
+        <stop offset="1" stop-color="#6E4D14"/>
+      </linearGradient>
+      <linearGradient id="g-tail" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#FFF1C4"/>
+        <stop offset=".4" stop-color="#E6BC5C"/>
+        <stop offset="1" stop-color="#8A6222"/>
+      </linearGradient>
+      <symbol id="bow-loop" viewBox="0 0 240 150">
+        <path d="M120 130 C102 116 60 108 36 86 C10 62 16 24 46 20 C78 16 104 60 120 130Z" fill="url(#g-loop)"/>
+        <path d="M113 117 C96 101 66 93 51 76 C37 60 41 39 55 38 C73 37 96 72 113 117Z" fill="url(#g-loop-hole)" opacity=".72"/>
+        <path d="M40 30 C62 20 92 50 108 100" fill="none" stroke="#FFF6D8" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+      </symbol>
+      <!-- letter corner filigree -->
+      <symbol id="corner" viewBox="0 0 64 64">
+        <path d="M3 50 V14 Q3 3 14 3 H50" fill="none" stroke="#F4D06F" stroke-width="1.3" stroke-linecap="round"/>
+        <path d="M10 36 V18 Q10 10 18 10 H36" fill="none" stroke="#F4D06F" stroke-width=".8" stroke-linecap="round" opacity=".55"/>
+        <path d="M21 15.5 L26.5 21 L21 26.5 L15.5 21 Z" fill="#F4D06F"/>
+        <circle cx="50" cy="3" r="1.6" fill="#F4D06F"/>
+        <circle cx="3" cy="50" r="1.6" fill="#F4D06F"/>
+        <circle cx="36" cy="10" r="1" fill="#F4D06F" opacity=".7"/>
+        <circle cx="10" cy="36" r="1" fill="#F4D06F" opacity=".7"/>
+      </symbol>
+      <!-- balloon finishes -->
+      <radialGradient id="g-bal-gold" cx="36%" cy="30%" r="78%">
+        <stop offset="0" stop-color="#FFF5D1"/><stop offset=".34" stop-color="#F4D06F"/><stop offset=".74" stop-color="#C08E35"/><stop offset="1" stop-color="#5E3F12"/>
+      </radialGradient>
+      <radialGradient id="g-bal-pink" cx="36%" cy="30%" r="78%">
+        <stop offset="0" stop-color="#FFE3F0"/><stop offset=".38" stop-color="#F472B6"/><stop offset=".76" stop-color="#C2417F"/><stop offset="1" stop-color="#5A1636"/>
+      </radialGradient>
+      <radialGradient id="g-bal-lavender" cx="36%" cy="30%" r="78%">
+        <stop offset="0" stop-color="#F4F0FF"/><stop offset=".38" stop-color="#C4B5FD"/><stop offset=".76" stop-color="#8C78DE"/><stop offset="1" stop-color="#3A2C72"/>
+      </radialGradient>
+      <radialGradient id="g-bal-purple" cx="36%" cy="30%" r="78%">
+        <stop offset="0" stop-color="#E7D8FF"/><stop offset=".38" stop-color="#8B5CF6"/><stop offset=".76" stop-color="#5B2FC0"/><stop offset="1" stop-color="#220F4C"/>
+      </radialGradient>
+      <radialGradient id="g-bal-pearl" cx="36%" cy="30%" r="78%">
+        <stop offset="0" stop-color="#FFFFFF"/><stop offset=".34" stop-color="#F3F0FA"/><stop offset=".74" stop-color="#C6C0DA"/><stop offset="1" stop-color="#635C80"/>
+      </radialGradient>
+      <radialGradient id="g-bal-shine" cx="50%" cy="50%" r="50%">
+        <stop offset="0" stop-color="#FFFFFF" stop-opacity=".85"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+      </radialGradient>
+      <symbol id="bow" viewBox="0 0 240 150">
+        <use href="#bow-loop" width="240" height="150"/>
+        <use href="#bow-loop" width="240" height="150" transform="translate(240 0) scale(-1 1)"/>
+        <rect x="101" y="102" width="38" height="40" rx="12" fill="url(#g-knot)"/>
+        <path d="M108 109 C115 118 115 127 108 136 M132 109 C125 118 125 127 132 136" fill="none" stroke="#6E4D14" stroke-width="1.6" opacity=".55"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- Atmosphere layers (decorative) -->
+  <div class="atmos" aria-hidden="true">
+    <div class="atmos-glow"></div>
+    <div class="atmos-rays"></div>
+  </div>
+  <canvas class="layer-canvas sky-canvas" id="sky" aria-hidden="true"></canvas>
+  <canvas class="layer-canvas fireworks-canvas" id="fireworks" aria-hidden="true"></canvas>
+  <canvas class="layer-canvas confetti-canvas" id="confetti" aria-hidden="true"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="text-scrim" aria-hidden="true"></div>
+  <div class="balloon-layer" id="balloons" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <p class="brand"><span class="brand-star" aria-hidden="true"></span>Midnight Gift</p>
+    <button class="music-toggle" id="music-toggle" type="button" aria-pressed="false" aria-label="Play music" hidden>
+      <span class="music-icon" aria-hidden="true">
+        <svg class="icon-note" viewBox="0 0 24 24" width="18" height="18"><path d="M9 18.5a2.5 2.5 0 1 1-2.5-2.5c.53 0 1.02.16 1.42.45V5.6l10.5-2.1v12.9a2.5 2.5 0 1 1-2.5-2.5c.53 0 1.02.16 1.42.45V7.1L9 8.82v9.68Z" fill="currentColor"/></svg>
+        <span class="eq"><i></i><i></i><i></i><i></i></span>
+      </span>
+      <span class="music-label" id="music-label">Music</span>
+    </button>
+  </header>
+
+  <main class="stage" id="stage">
+    <!-- STATE 1: Intro -->
+    <section class="intro" id="intro" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="eyebrow"><span>For Someone Special</span></p>
+        <h1 class="intro-title" id="intro-title">Something Beautiful Awaits<span class="ellipsis">...</span></h1>
+        <p class="intro-sub">A little surprise, made just for you.</p>
+      </div>
+
+      <div class="gift-scene" aria-hidden="true">
+        <div class="gift-rays"></div>
+        <div class="gift-aura"></div>
+        <div class="gift-shadow"></div>
+        <span class="sparkle" style="--x:14%;--y:34%;--d:.2s;--t:4.6s;--z:1"></span>
+        <span class="sparkle" style="--x:86%;--y:26%;--d:1.6s;--t:5.2s;--z:.8"></span>
+        <span class="sparkle" style="--x:80%;--y:70%;--d:3.1s;--t:4.4s;--z:.6"></span>
+        <span class="sparkle" style="--x:20%;--y:76%;--d:2.4s;--t:5.8s;--z:.7"></span>
+        <span class="sparkle" style="--x:50%;--y:6%;--d:4s;--t:6.2s;--z:.55"></span>
+        <span class="sparkle" style="--x:92%;--y:48%;--d:.9s;--t:6.8s;--z:.45"></span>
+
+        <div class="gift-lift">
+          <div class="gift-float">
+            <div class="gift-tilt" id="gift-tilt">
+              <div class="gift-wiggle">
+                <div class="gift">
+                  <div class="gift-beam"></div>
+                  <div class="gift-body">
+                    <div class="face b-front"><i class="ribbon"></i></div>
+                    <div class="face b-back"><i class="ribbon"></i></div>
+                    <div class="face b-left"><i class="ribbon"></i></div>
+                    <div class="face b-right"><i class="ribbon"></i></div>
+                    <div class="face b-bottom"></div>
+                    <div class="face b-inside" id="gift-mouth"><i class="inside-glow"></i></div>
+                  </div>
+                  <div class="gift-lid">
+                    <div class="face l-front"><i class="ribbon"></i></div>
+                    <div class="face l-back"><i class="ribbon"></i></div>
+                    <div class="face l-left"><i class="ribbon"></i></div>
+                    <div class="face l-right"><i class="ribbon"></i></div>
+                    <div class="face l-under"></div>
+                    <div class="face l-top">
+                      <svg class="top-ribbon" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false">
+                        <path d="M54.05 52.93 L28.05 88.93 L27.5 81.1 L19.95 83.07 L45.95 47.07 Z" fill="url(#g-tail)"/>
+                        <path d="M53.87 46.82 L81.87 80.82 L74.18 79.36 L74.13 87.18 L46.13 53.18 Z" fill="url(#g-tail)" opacity=".9"/>
+                        <rect x="42" y="0" width="16" height="100" fill="url(#g-satin-v)"/>
+                        <rect x="0" y="42" width="100" height="16" fill="url(#g-satin-h)"/>
+                      </svg>
+                    </div>
+                    <svg class="bow bow-a" viewBox="0 0 240 150" focusable="false"><use href="#bow" width="240" height="150"/></svg>
+                    <svg class="bow bow-b" viewBox="0 0 240 150" focusable="false"><use href="#bow" width="240" height="150"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gift-bloom"></div>
+      </div>
+
+      <div class="intro-cta">
+        <button class="open-btn" id="open-btn" type="button">
+          <span class="open-btn-star" aria-hidden="true"></span>
+          <span class="open-btn-text">Open Your Gift</span>
+        </button>
+        <p class="hint">Tap to begin your little adventure</p>
+      </div>
+    </section>
+
+    <!-- STATE 3: Celebration -->
+    <section class="celebration" id="celebration" aria-labelledby="celebration-title">
+      <div class="celebration-inner">
+        <p class="cel-kicker rv">A Little Universe, Just for You</p>
+        <h2 class="cel-title" id="celebration-title" tabindex="-1">
+          <span class="cel-happy rv"><span>Happy Birthday</span></span>
+          <span class="cel-name rv" data-text="Mariam"><span class="visually-hidden">, Mariam</span><span class="cel-name-letters" aria-hidden="true"><span style="--i:0;--c1:#F4D06F;--c2:#FBE6AE">M</span><span style="--i:1;--c1:#FBE6AE;--c2:#F9C3D9">a</span><span style="--i:2;--c1:#F9C3D9;--c2:#F6A0CD">r</span><span style="--i:3;--c1:#F6A0CD;--c2:#D7B8F6">i</span><span style="--i:4;--c1:#D7B8F6;--c2:#C4B5FD">a</span><span style="--i:5;--c1:#C4B5FD;--c2:#F2D9A2">m</span></span></span>
+        </h2>
+        <div class="ornament rv" aria-hidden="true">
+          <span></span>
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M12 1.5l2.2 8.3 8.3 2.2-8.3 2.2L12 22.5l-2.2-8.3L1.5 12l8.3-2.2z" fill="currentColor"/></svg>
+          <span></span>
+        </div>
+
+        <article class="letter-card rv" id="letter-card" aria-label="A birthday letter for Mariam">
+          <span class="letter-edge" aria-hidden="true"></span>
+          <svg class="corner corner-tl" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#corner" width="64" height="64"/></svg>
+          <svg class="corner corner-tr" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#corner" width="64" height="64"/></svg>
+          <svg class="corner corner-bl" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#corner" width="64" height="64"/></svg>
+          <svg class="corner corner-br" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#corner" width="64" height="64"/></svg>
+          <div class="letter">
+            <p class="letter-lead rv">Hey, kitty ❤️</p>
+            <p class="rv">Come on, you know I can never pass up a chance to talk to you freely! 😂</p>
+            <p class="rv">Anyway, what I really wanted to tell you is that you're the person I've needed most in my life, the person who taught me new ways to think, and the person I've always felt most comfortable being myself around.</p>
+            <p class="rv">You're the kindest and sweetest person I've ever met in my entire life.</p>
+            <p class="rv">Honestly, maybe this is some kind of black magic, because I've never cared about anyone this much before. 😂💜</p>
+            <p class="rv">You've become the most precious person in my life, more precious to me than even myself. Nothing makes me happier than knowing you're happy.</p>
+            <p class="letter-close rv">✨ I hope you always stay happy, and I truly wish for you to become the most successful person in the world. ✨</p>
+          </div>
+          <div class="letter-flourish rv" aria-hidden="true">
+            <span></span>
+            <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 20.6s-7.6-4.6-9.4-9.3C1.4 8 3.3 4.6 6.8 4.6c2.1 0 3.6 1.2 4.4 2.6.8-1.4 2.3-2.6 4.4-2.6 3.5 0 5.4 3.4 4.2 6.7-1.8 4.7-9.4 9.3-9.4 9.3Z" fill="currentColor"/></svg>
+            <span></span>
+          </div>
+        </article>
+
+        <p class="sky-hint rv" id="sky-hint">Tap the sky for a little more magic</p>
+      </div>
+    </section>
+  </main>
+
+  <button class="scroll-cue" id="scroll-cue" type="button" hidden>
+    <span>Read your letter</span>
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <noscript>
+    <p class="noscript-note">Turn on JavaScript to open the gift with fireworks and music.</p>
+  </noscript>
+
+  <audio id="bgm" preload="auto" loop src="%D9%85%D8%AD%D9%85%D9%88%D8%AF-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF.mp3"></audio>
+
+  <script src="script.js" onerror="document.documentElement.classList.replace('js','no-js')"></script>
+</body>
+</html>
